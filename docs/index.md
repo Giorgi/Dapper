@@ -24,6 +24,18 @@ Note: to get the latest pre-release build, add ` -Pre` to the end of the command
 
 (note: new PRs will not be merged until they add release note wording here)
 
+### 2.1.4
+
+- add untyped `GridReader.ReadUnbufferedAsync` API (#1958 via @mgravell)
+- tweak NRT annotations on type-handler API (#1960 via @mgravell, fixes #1959)
+
+### 2.1.1
+
+- add NRT annotations (#1928 via @mgravell)
+- extend `GridReader` API to allow it to be subclassed by external consumers (#1928 via @mgravell)
+- support `$` as a parameter prefix (#1952 via @Giorgi)
+- add public API tracking (#1948 via @mgravell)
+
 ### 2.0.151
 
 - add global `FetchSize` setting for use with Oracle (#1946 via mgravell, fixes #1945) (also add some missing logic in `Settings.Reset()`)
